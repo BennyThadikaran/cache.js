@@ -1,0 +1,29 @@
+{
+  "name": "cache.js",
+  "version": "2.0.0",
+  "description": " A simple wrapper for Client Side Caching with Window.localStorage. Defaults to in-memory Objects if localStorage not available.",
+  "main": "src/cache.js",
+  "type": "module",
+  "keywords": [
+    "vanilla-javascript",
+    "localstorage",
+    "es6",
+    "memorystorage"
+  ],
+  "author": "Benny Thadikaran",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.38.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.8.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "prettier": "2.8.7"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
